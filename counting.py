@@ -1,6 +1,4 @@
-import sys
-
-array = list(map(int, sys.stdin.readline().split()))
+array = list(map(int, input().split()))
 count = [0]*(max(array)+1)
 
 for i in range(len(array)):
