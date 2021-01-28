@@ -1,3 +1,6 @@
+# 유형별 기출 - 그리디
+# 311p
+
 n = int(input())
 num = sorted(list(map(int, input().split())))
 cnt = 0
